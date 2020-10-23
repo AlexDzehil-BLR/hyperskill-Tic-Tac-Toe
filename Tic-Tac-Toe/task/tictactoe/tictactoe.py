@@ -3,12 +3,6 @@ a = [[text[0], text[1], text[2]],
      [text[3], text[4], text[5]],
      [text[6], text[7], text[8]]
      ]
-# per = 'X'
-# print('---------')
-# print('|', a[0][0], a[0][1], a[0][2], '|')
-# print('|', a[1][0], a[1][1], a[1][2], '|')
-# print('|', a[2][0], a[2][1], a[2][2], '|')
-# print('---------')
 
 
 def valid():
@@ -39,26 +33,18 @@ def valid():
                         else:
                             a[2][0] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '2':
                         if a[1][0] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[1][0] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '3':
                         if a[0][0] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[0][0] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
-                    # break
-                # if X = 2
                 elif x == '2':
                     if y == '1':
                         if a[2][1] != ' ':
@@ -66,26 +52,18 @@ def valid():
                         else:
                             a[2][1] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '2':
                         if a[1][1] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[1][1] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '3':
                         if a[0][1] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[0][1] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
-                    # break
-                # if X = 3
                 elif x == '3':
                     if y == '1':
                         if a[2][2] != ' ':
@@ -93,32 +71,25 @@ def valid():
                         else:
                             a[2][2] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '2':
                         if a[1][2] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[1][2] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
                     if y == '3':
                         if a[0][2] != ' ':
                             print("This cell is occupied! Choose another one!")
                         else:
                             a[0][2] = per
                             break
-                        # else:
-                        #     print("This cell is occupied! Choose another one!")
-                    # break
+
 
     print('---------')
     print('|', a[0][0], a[0][1], a[0][2], '|')
     print('|', a[1][0], a[1][1], a[1][2], '|')
     print('|', a[2][0], a[2][1], a[2][2], '|')
     print('---------')
-
 
 
 def main():
